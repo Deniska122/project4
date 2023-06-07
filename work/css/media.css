@@ -1,0 +1,40 @@
+@media (max-width: 992px) {
+    .menu__burger {
+        display: block;
+       
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 465px;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 568px) {
+    .container {
+        max-width: 365px;
+    }
+
+    .section {
+        justify-content: center;
+    }
+}
+
+@media (max-width : 370px) {
+    .container {
+        max-width: 325px;
+    }
+}

@@ -1,0 +1,32 @@
+@media (max-width: 992px) {
+    .menu__burger {
+        display: block;
+       
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .container {
+        max-width: 620px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 465px;
+    }
+}
+
+@media (max-width: 488px) {
+    .container {
+        max-width: 365px;
+    }
+}
+
+@media (max-width: 388px) {
+    .container {
+        max-width: 315px;
+    }
+}

@@ -1,0 +1,190 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Heebo;
+}
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+}
+
+ul, ol, li {
+    list-style-type: none;
+    list-style: none;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu__burger {
+    position: relative;
+    height: 18px;
+    width: 30px;
+    display: none;
+}
+
+.menu__burger span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #21243D;
+    content: "";
+    top: 50%;
+}
+
+.menu__burger span::after {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #21243D;
+    content: "";
+    top: 7px;
+}
+
+.menu__burger span::before {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #21243D;
+    content: "";
+    bottom: 7px;
+}
+
+/* --------------------------------------------- */
+.header__nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    align-items: center;
+    min-height: 86px;
+}
+
+.nav__link {
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+}
+
+.nav__link.active {
+    color: #FF6464;
+    font-weight: 800;
+}
+/* -------------------------------- */
+.block {
+    margin-bottom: 30px;
+}
+
+.block > :last-child{
+    padding-bottom: 50px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243d;
+    text-align: left;
+    padding-top: 36px;
+}
+
+.block__title {
+    color: #21243d;
+    line-height: 38px;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 55px;
+    display: block;
+}
+
+.block__subtitle {
+    display: flex;
+    color: #21243d;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 400;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.block__subtitle::after {
+    display: block;
+    content: "Express, Handlebars";
+    color: #8695a4;
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+
+.block__text {
+    display: block;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243d;
+    max-width: 682px;
+}
+
+
+.footer {
+    height: 180px;
+    padding-top: 50px;
+}
+
+.footer-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.footer-icons {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer::after {
+    display: block;
+    content: "Copyright ©2020 All rights reserved";
+    text-align: center;
+    color: #21243d;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 15px;
+    height: 70px;
+}
+
+.icons {
+    display: flex;
+    gap: 27px;
+    width: 100%;
+    justify-content: center;
+}
+
+/* ---end */
